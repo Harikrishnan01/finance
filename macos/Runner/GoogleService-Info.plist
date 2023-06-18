@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>762128163426-gkbo07mnqa0hbu91e7od0gbbr1rpntot.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.762128163426-gkbo07mnqa0hbu91e7od0gbbr1rpntot</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBqiXL1GX_0-CllDNWG6e20Yb1zJTqCjsg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>762128163426</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.budgetbro</string>
+	<key>PROJECT_ID</key>
+	<string>budgetbro-ce796</string>
+	<key>STORAGE_BUCKET</key>
+	<string>budgetbro-ce796.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:762128163426:ios:bd6cd73c08a12699c1273b</string>
+</dict>
+</plist>
