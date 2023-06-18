@@ -1,3 +1,4 @@
+import 'package:budgetbro/bottom_nav.dart';
 import 'package:budgetbro/screen_home.dart';
 import 'package:budgetbro/screen_register.dart';
 import 'package:flutter/material.dart';
@@ -73,8 +74,8 @@ class Login extends StatelessWidget {
                             email: _emailController.text.trim(),
                             password: _passwordController.text.trim())
                         .then((value) {
-                      Navigator.of(context).push(
-                          MaterialPageRoute(builder: (ctx) => ScreenHome()));
+                      Navigator.of(context)
+                          .push(MaterialPageRoute(builder: (ctx) => Bottom()));
                     });
                   },
                   child: Container(
