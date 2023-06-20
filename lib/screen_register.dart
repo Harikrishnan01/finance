@@ -108,8 +108,8 @@ class ScreenRegisterPage extends StatelessWidget {
                             email: _emailController.text.trim(),
                             password: _passwordController.text.trim())
                         .then((value) {});
-                    Navigator.of(context).push(
-                        MaterialPageRoute(builder: (ctx) => ScreenHome()));
+                    Navigator.of(context)
+                        .push(MaterialPageRoute(builder: (ctx) => Home()));
                   },
                   child: Container(
                     width: 280,

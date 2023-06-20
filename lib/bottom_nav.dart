@@ -1,3 +1,5 @@
+import 'package:budgetbro/add.dart';
+import 'package:budgetbro/screen_chart.dart';
 import 'package:budgetbro/screen_home.dart';
 import 'package:budgetbro/screen_profile.dart';
 import 'package:budgetbro/screen_statistics.dart';
@@ -14,10 +16,10 @@ class Bottom extends StatefulWidget {
 class _BottomState extends State<Bottom> {
   int index_color = 0;
   List<Widget> screens = [
-    ScreenHome(),
-    ScreenStatistics(),
+    Home(),
+    ScreenChart(),
     ScreenWallet(),
-    ScreenProfile(),
+    ProfilePage(),
   ];
 
   @override
@@ -26,8 +28,8 @@ class _BottomState extends State<Bottom> {
       body: screens[index_color],
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          // Navigator.of(context)
-          //     .push(MaterialPageRoute(builder: (context) => Add_Screen()));
+          Navigator.of(context)
+              .push(MaterialPageRoute(builder: (context) => Add_Screen()));
         },
         child: Icon(Icons.add),
         backgroundColor: Color(0xff368983),
